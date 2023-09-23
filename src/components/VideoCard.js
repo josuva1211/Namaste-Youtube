@@ -26,3 +26,14 @@ const VideoCard = ({ info }) => {
 }
 
 export default VideoCard;
+
+
+export const VideoCardWithAd = ({ info }) => {
+  return (
+    <>
+      <VideoCard info={info} />
+      <h1 className='m-2 text-xl font-bold'>AD 📺</h1>
+    </>
+    
+  )
+}
